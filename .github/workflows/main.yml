@@ -14,6 +14,3 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_NAME}}/task .
       - name: " pushing to docker hub "
         run: docker push ${{ secrets.DOCKER_NAME}}/task
-
-
-
